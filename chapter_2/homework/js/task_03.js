@@ -1,0 +1,12 @@
+let number = prompt('enter a number');
+
+function factorial(n){
+let f=1;
+for(let i=1; i <= n; i++) f *= i;
+return (f);
+}
+
+
+var fact = factorial(number);
+alert(fact);
+
