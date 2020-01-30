@@ -1,0 +1,23 @@
+.default-btn {
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    background-color: rgb(72, 175, 72);
+    cursor: pointer;
+    transition: .2s;
+}
+
+.default-btn:hover {
+    background-color: rgb(214, 184, 36);
+}
+
+div {
+    background-color:yellow;
+    padding: 20px;
+}
+
+.tasks {
+    background-color: green;
+    padding: 20px;
+}

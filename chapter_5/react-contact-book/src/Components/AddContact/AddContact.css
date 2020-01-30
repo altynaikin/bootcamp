@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css?family=Dosis&display=swap&subset=latin-ext');
+
+.container {
+    padding: 10px;
+    margin-left: 500px;
+    margin-right: 500px;
+    margin-top: 20px;
+    font-family: 'Dosis', sans-serif;
+}
+
+.input-name {
+    border: 0;
+    border-radius: 5px;
+    display: block;
+    padding: 10px;
+    background-color: #fff;
+    margin: 10px auto 0 auto;
+    font-family: 'Dosis', sans-serif;
+}
+
+.input-lastName {
+    border: 0;
+    border-radius: 5px;
+    display: block;
+    padding: 10px;
+    background-color: #fff;
+    margin: 10px auto 0 auto;
+    font-family: 'Dosis', sans-serif;
+}
+
+.input-phone {
+    border: 0;
+    border-radius: 5px;
+    display: block;
+    padding: 10px;
+    background-color: #fff;
+    margin: 10px auto 0 auto;
+    font-family: 'Dosis', sans-serif;
+}
+
+.btn-add-contact {
+    display: block;
+    margin: 15px auto 0 auto;
+    position: relative;
+    border: 0;
+    border-radius: 5px;
+    padding: 10px 55px;
+    background-color: rgb(49, 230, 49);
+    cursor: pointer;
+    color: #fff;
+    font-family: 'Dosis', sans-serif;
+}
+
+

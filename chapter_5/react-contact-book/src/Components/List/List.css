@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css?family=Dosis&display=swap&subset=latin-ext');
+
+.contact-list {
+    text-align: center;
+    padding: 0 300px;
+    margin-left: auto;
+    margin-right: auto;
+    list-style: none;
+    font-family: 'Dosis', sans-serif;
+}
+
+.item-list {
+    font-family: 'Dosis', sans-serif;
+    border: none;
+    border-radius: 5px;
+    background-color: #fff;
+    color: black;
+    cursor: pointer;
+    margin-top: 5px;
+}
+
+.item-list:hover {
+    background-color: #ccc;
+    transition: 0.3s;
+}
+
+.btn-delete {
+    background: url(../img/delete.png) no-repeat center center / contain;
+    display: inline-block;
+    position: relative;
+    left: 274px;
+    bottom: 13px;
+    border: none;
+    border-radius: 3px;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}

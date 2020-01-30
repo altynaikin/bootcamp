@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css?family=Kalam:400,700&display=swap&subset=latin-ext');
+
+.modal-bck {
+    position: fixed; 
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(17, 17, 17, 0.9);
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-card {
+    position: absolute;
+    background: #409fe6;
+    color: black;
+    font-size: 20px;
+    padding: 50px 150px;
+    border-radius: 7px;
+    font-family: 'Dosis', sans-serif;
+}
+
+.input__contact {
+    padding: 15px 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: #fff;
+    margin-top: 10px;
+
+}
+
+.modal-close {
+    background: url(../img/close.png)no-repeat center center / contain;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    border: none;
+    width: 30px;
+    height: 30px;
+}
+
+.btn.save {
+    background-color: rgb(25, 160, 25);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    margin-top: 20px;
+    font-family: 'Dosis', sans-serif;
+}
+
+.btn.save:hover {
+    background-color: rgb(40, 80, 13);
+    transition: 0.3s;
+}
+
+.btn.cancel {
+    background-color: rgb(153, 22, 22);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    margin-top: 20px;
+    margin-left: 10px;
+    font-family: 'Dosis', sans-serif;
+}
+
+.btn.cancel:hover {
+    background-color: rgb(105, 11, 11);
+    transition: 0.3s;
+}

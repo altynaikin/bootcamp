@@ -1,0 +1,45 @@
+html,body {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    min-height: 100vh;
+}
+
+.container { 
+    align-items: center;
+    padding: 1rem;
+    display: flex;
+     
+}
+.elevator{
+    width: 30px;
+    height: 50px;
+    transition: 0.5s;
+    position: absolute;
+    border: 1px solid black;
+    box-sizing: border-box;
+    background-color: black;
+    top: 0;
+
+}
+.house {
+    width: 100px;
+    height: 400px;
+    background: #795548;
+    margin: 0 16px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+
+}
+
+.buttons {
+    height:200px ;
+}
+
+.base-btns{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 60px;
+}
